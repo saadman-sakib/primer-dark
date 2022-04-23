@@ -5,8 +5,7 @@ exclude:
 sass:
   style: :compressed
 
-remote_theme: saadman-sakib/primer-dark
-
+theme: jekyll-theme-primer
 
 github:
   private: false
@@ -17,5 +16,5 @@ github:
     path: "/"
   repository_url: "https://github.com/pages-themes/primer"
   
-title: Jekyll Theme Primer Dark
-description: Primer Dark is a Jekyll theme for GitHub Pages
+title: Jekyll Theme Primer
+description: Primer is a Jekyll theme for GitHub Pages
