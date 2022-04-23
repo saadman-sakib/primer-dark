@@ -1,109 +1,213 @@
-// Color utilities
-// stylelint-disable block-opening-brace-space-before, primer/selector-no-utility
-// stylelint-disable comment-empty-line-before
-
-// background colors
-/* Set the background to $bg-white */
-.bg-white      { background-color: $bg-white !important; }
-/* Set the background to $bg-blue */
-.bg-blue       { background-color: $bg-blue !important; }
-/* Set the background to $bg-blue-light */
-.bg-blue-light { background-color: $bg-blue-light !important; }
-/* Set the background to $bg-gray-dark */
-.bg-gray-dark  { background-color: $bg-gray-dark !important; }
-/* Set the background to $bg-gray */
-.bg-gray       { background-color: $bg-gray !important; }
-/* Set the background to $bg-gray-light */
-.bg-gray-light { background-color: $bg-gray-light !important; }
-/* Set the background to $bg-green */
-.bg-green      { background-color: $bg-green !important; }
-/* Set the background to $bg-green-light */
-.bg-green-light     { background-color: $bg-green-light !important; }
-/* Set the background to $bg-red */
-.bg-red        { background-color: $bg-red !important; }
-/* Set the background to $bg-red-light */
-.bg-red-light  { background-color: $bg-red-light !important; }
-/* Set the background to $bg-yellow */
-.bg-yellow     { background-color: $bg-yellow !important; }
-/* Set the background to $bg-yellow-light */
-.bg-yellow-light     { background-color: $bg-yellow-light !important; }
-/* Set the background to $bg-purple */
-.bg-purple     { background-color: $bg-purple !important; }
-/* Set the background to $bg-purple-light */
-.bg-purple-light     { background-color: $bg-purple-light !important; }
-
-.bg-shade-gradient {
-  background-image: linear-gradient(180deg, rgba($black, 0.065), rgba($black, 0)) !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% 200px !important;
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .c, .highlight .cd {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  color: #000000;
+  font-style: italic;
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kd {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kv {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .mf {
+  color: #009999;
+}
+.highlight .mh {
+  color: #009999;
+}
+.highlight .il {
+  color: #009999;
+}
+.highlight .mi {
+  color: #009999;
+}
+.highlight .mo {
+  color: #009999;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #009999;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .bp {
+  color: #999999;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .o {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: #f8f8f8;
 }
 
-// text colors
-/* Set the text color to $text-blue */
-.text-blue          { color: $text-blue !important; }
-/* Set the text color to $text-red */
-.text-red           { color: $text-red !important; }
-/* Set the text color to $text-gray-light */
-.text-gray-light    { color: $text-gray-light !important; }
-/* Set the text color to $text-gray */
-.text-gray          { color: $text-gray !important; }
-/* Set the text color to $text-gray-dark */
-.text-gray-dark     { color: $text-gray-dark !important; }
-/* Set the text color to $text-green */
-.text-green         { color: $text-green !important; }
-/* Set the text color to $text-orange */
-.text-orange        { color: $text-orange !important; }
-/* Set the text color to $text-orange-light */
-.text-orange-light        { color: $text-orange-light !important; }
-/* Set the text color to $text-purple */
-.text-purple        { color: $text-purple !important; }
-/* Set the text color to $text-white */
-.text-white         { color: $text-white !important; }
-/* Set the text color to inherit */
-.text-inherit       { color: inherit !important; }
-
-// Text states
-// These can probably all be regular utilities
-.text-pending { color: $yellow-800 !important; }
-// Separate text and background colors in future to improve a11y
-.bg-pending { color: $yellow-700 !important; }
-
-// Link colors
-// Sets the links color to $text-gray and $text-blue on hover
-.link-gray {
-  color: $text-gray !important;
-
-  &:hover {
-    color: $text-blue !important;
-  }
-}
-
-// Sets the links color to $text-gray-dark and $text-blue on hover
-.link-gray-dark {
-  color: $text-gray-dark !important;
-
-  &:hover {
-    color: $text-blue !important;
-  }
-}
-
-/* Set the link color to $text-blue on hover
-  Useful when you want only part of a link to turn blue on hover */
-.link-hover-blue {
-  &:hover {
-    color: $text-blue !important;
-  }
-}
-
-/* Make a link $text-gray, then $text-blue on hover and removes the underline */
-.muted-link {
-  color: $text-gray !important;
-
-  &:hover {
-    color: $text-blue !important;
-    text-decoration: none;
-  }
-}
 
 body {
   box-sizing: border-box;
